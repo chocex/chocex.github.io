@@ -26,10 +26,16 @@ p{
 h1{
     transform: scale(3);
     /* line-height: 4em; */
-    margin-bottom: 66px;
+    margin-bottom: 64px;
 }
 h2{
     margin-bottom: 24px;
+}
+
+h3{
+    transform: scale(2);
+    margin-bottom: 32px;
+    margin-up: 32px
 
 
 }
