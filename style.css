@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);
 
 * {
     margin: 0;
@@ -6,13 +6,25 @@
 
 body{
     min-height: 100vh;
-    background-color: #fee7f0;
-color: #2c9223;
-font-family: 'Courier Prime', monospace;
-padding: 32px;
+    background-color: white;
+    color:black;
+    font-family: 'VT323', monospace;
+    padding: 32px;
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    transition: all 0.3s cubic-bezier(0.1, 1.4, 0.3, 1);
+    transform: scaleY(0);
+
+}
+
+h1{
+    transform: scale(3);
+    /* line-height: 4em; */
+    margin-bottom: 64px;
 }
